@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui/etc/ui_configuration.xsd">
+  <columns name="product_columns" class="Magento\Catalog\Ui\Component\Listing\Columns">
+    <column name="number_configurable" sortOrder="50">
+      <settings>
+        <addField>true</addField>
+        <filter>textRange</filter>
+        <label translate="true">number of configurable options</label>
+      </settings>
+    </column>
+  </columns>
+</listing>

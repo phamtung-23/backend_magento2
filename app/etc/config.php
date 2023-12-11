@@ -349,6 +349,8 @@ return [
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
-        'Unit5_CustomEntity' => 1
+        'Unit5_CustomEntity' => 1,
+        'Unit6_Ex' => 1,
+        'Unit6_verification' => 1
     ]
 ];
