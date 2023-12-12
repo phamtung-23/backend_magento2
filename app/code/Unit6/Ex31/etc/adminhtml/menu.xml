@@ -11,4 +11,15 @@
             parent="Magento_Catalog::catalog"
             />
     </menu>
+    <menu>
+        <add
+            id="Unit6_Ex31::hello"
+            title="Hello world"
+            module="Unit6_Ex31"
+            sortOrder="40"
+            action="ex33/index/index"
+            resource="Unit6_Ex31::hello"
+            parent="Magento_Catalog::catalog"
+            />
+    </menu>
 </config>
