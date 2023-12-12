@@ -3,7 +3,7 @@
     <update handle="styles"/>
     <body>
         <referenceContainer name="content">
-            <uiComponent name="customblog_post_listing"/>
+            <uiComponent name="computer_new_form"/>
         </referenceContainer>
     </body>
 </page>

@@ -1,8 +1,8 @@
 <?php
 
-namespace Custom\Blog\Controller\Adminhtml\Post;
+namespace Unit6\Computer\Controller\Adminhtml\Game;
 
-class Index extends \Magento\Backend\App\Action
+class Newcomputer extends \Magento\Backend\App\Action
 {
 	protected $resultPageFactory = false;
 
@@ -18,7 +18,7 @@ class Index extends \Magento\Backend\App\Action
 	public function execute()
 	{
 		$resultPage = $this->resultPageFactory->create();
-		$resultPage->getConfig()->getTitle()->prepend((__('Manage Custom Blogs')));
+		$resultPage->getConfig()->getTitle()->prepend((__('Add New Computer')));
 
 		return $resultPage;
 	}
