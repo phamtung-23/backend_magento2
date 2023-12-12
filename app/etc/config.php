@@ -346,10 +346,12 @@ return [
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
         'Magento_WishlistSampleData' => 1,
+        'Custom_Blog' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
         'Unit5_CustomEntity' => 1,
+        'Unit6_Computer' => 1,
         'Unit6_Ex' => 1,
         'Unit6_verification' => 1
     ]

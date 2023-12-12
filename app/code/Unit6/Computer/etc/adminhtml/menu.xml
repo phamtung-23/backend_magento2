@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Unit6_Computer::menu" title="Computer" module="Unit6_Computer" sortOrder="51" resource="Unit6_Computer::menu"/>
+        <add id="Unit6_Computer::menu_item" title="Computer game" module="Unit6_Computer" sortOrder="10" action="computer/game" resource="Unit6_Computer::menu_item" parent="Unit6_Computer::menu"/>
+    </menu>
+</config>

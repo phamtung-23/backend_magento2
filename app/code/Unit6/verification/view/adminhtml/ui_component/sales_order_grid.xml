@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <listingToolbar name="listing_top">
+        <massaction name="listing_massaction" component="Magento_Ui/js/grid/tree-massactions" class="\Magento\Catalog\Ui\Component\Product\MassAction">
+            <action name="update_verification">
+                <argument name="data" xsi:type="array">
+                    <item name="config" xsi:type="array">
+                        <item name="type" xsi:type="string">update_verification</item>
+                        <item name="label" xsi:type="string" translate="true">Update Verification</item>
+                        <item name="url" xsi:type="url" path="verification/order/massupdateTest"/>
+                        <item name="confirm" xsi:type="array">
+                            <item name="title" xsi:type="string" translate="true">Update Verification</item>
+                            <item name="message" xsi:type="string" translate="true">Are you sure you want to update the verification status for the selected order(s)?</item>
+                        </item>
+                    </item>
+                </argument>
+            </action>
+        </massaction>
+    </listingToolbar>
+</listing>
