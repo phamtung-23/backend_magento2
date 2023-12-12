@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="general" translate="label" sortOrder="10">
+            <label>General</label>
+        </tab>
+        <section id="test_section" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Test Section</label>
+            <tab>general</tab>
+            <resource>Unit6_Ex31::config_module</resource>
+            <group id="test_group" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Test Group</label>
+                <field id="test_enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Test Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <frontend_model>Unit6\Ex31\Block\Adminhtml\System\Config\Text</frontend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

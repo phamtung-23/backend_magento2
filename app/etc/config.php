@@ -352,6 +352,7 @@ return [
         'Unit5_CustomEntity' => 1,
         'Unit6_Computer' => 1,
         'Unit6_Ex' => 1,
+        'Unit6_Ex31' => 1,
         'Unit6_verification' => 1
     ]
 ];
